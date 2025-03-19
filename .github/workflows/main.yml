@@ -12,3 +12,9 @@ jobs:
 
       - name: Run a one-line script
         run: echo ${{ secrets.SECRET_KEY }}
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo "test job"
